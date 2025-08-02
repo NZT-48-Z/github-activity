@@ -1,15 +1,15 @@
 import click
 import asyncio
 
-from service import get_user_activity
-from config_manager import (
+from cli.service import get_user_activity
+from cli.config_manager import (
     check_config_exists,
     create_config_interactive,
     create_config,
     load_config,
     recreate_config,
 )
-from output_formatter import ColorOutput
+from cli.output_formatter import ColorOutput
 
 
 @click.command()

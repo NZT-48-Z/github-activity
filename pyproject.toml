@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "github-activity"
 version = "0.1.0"
@@ -7,4 +11,14 @@ requires-python = ">=3.12"
 dependencies = [
     "aiohttp>=3.12.14",
     "click>=8.2.1",
+    "colorama>=0.4.6",
 ]
+
+[project.scripts]
+github-activity = "cli.cli:cli"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

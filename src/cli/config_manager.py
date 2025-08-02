@@ -2,7 +2,7 @@ import pathlib
 import click
 import json
 
-from output_formatter import ColorOutput
+from cli.output_formatter import ColorOutput
 
 
 CONFIG_PATH = pathlib.Path(__file__).resolve(

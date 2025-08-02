@@ -1,4 +1,4 @@
-from http_client import get_github_activity
+from cli.http_client import get_github_activity
 
 
 async def fetch_github_activity(username, token, limit):

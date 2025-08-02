@@ -1,6 +1,6 @@
-from api_client import fetch_github_activity
-from output_formatter import format_events, ColorOutput
-from config_manager import load_config
+from cli.api_client import fetch_github_activity
+from cli.output_formatter import format_events, ColorOutput
+from cli.config_manager import load_config
 
 
 async def get_user_activity(username, config):
