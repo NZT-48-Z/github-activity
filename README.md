@@ -22,7 +22,8 @@ git clone https://github.com/NZT-48-Z/github-activity.git
 cd github-activity
 
 .\install.bat # На Windows
-./install.sh # На Linux / macOS
+
+bash install.sh # На Linux / macOS
 ```
 
 ## 🖥️ Использование
