@@ -85,3 +85,5 @@ Fetching activity for torvalds...
 2. Нажмите "Generate new token"
 3. Выберите необходимые разрешения (public_repo)
 4. Скопируйте токен и вставьте в конфигурацию
+
+https://roadmap.sh/projects/github-user-activity
